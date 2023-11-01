@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+     
+    </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html" style="font-size: 20px;color:white;font-weight:bolder">Savoury Secrets</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html" style="color:white;font-weight:bolder">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" style="color:white;font-weight:bolder">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.php" style="color:white;font-weight:bolder">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Log.php" style="color:white;font-weight:bolder">Log-out</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid">
+    <div class="card text-bg-dark">
+      <img src="C:\xampp\htdocs\project\img\Title3.png" class="card-img">
+      <div class="card-img-overlay">
+        <h5 style="text-align:center;font-size:60px;color:rgb(255, 255, 255)"></br>Savoury Secrets</h5>
+    
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <div class="card mb-3">
+          <a href="C:\xampp\htdocs\project\veg.html" class="btn"> <img src="C:\xampp\htdocs\project\img\Ved.png" class="card-img-top" alt="please imagine your favourite dish while we load the image."></a>
+          <div class="card-body bg-warning">
+            <h5 style="text-align:center;font-size:24px;">Vegetarian dishes</h5>
+            
+            
+          </div>      
+        </div>      
+      </div>
+      <div class="col-6">
+        <div class="card mb-3">
+          <a href="C:\xampp\htdocs\project\nonveg.html" class="btn"><img src="C:\xampp\htdocs\project\img\nonveg2.png" class="card-img-top" alt="please imagine your favourite dish while we load the image."></a>
+          <div class="card-body bg-warning">
+            <h5 style="text-align:center;font-size:24px;">Nonvegetarian dishes</h5>
+            
+        </div>
+      </div>
+     
+    </div>
+  </div>
+
+  <div class="container-fluid bg-warning" style="height:200px">
+    <div class="row">
+      <div class="row">
+        <div class="col" style="text-align: center;height:50px;font-size: 17px;color:rgb(0, 0, 0)"></br> Trusha Madhav</div>
+        
+      </div>
+      <div class="row">
+        <div class="col" style="text-align: center;height:50px;font-size: 17px;color:rgb(0, 0, 0)"></br> Vishal Mansharamani</div>
+        
+      </div>
+      <div class="row">
+        <div class="col" style="text-align: center;height:50px;font-size: 17px;color:rgb(0, 0, 0)"></br> Kunal Mahimkar</div>
+        
+      </div>
+      <div class="row">
+        <div class="col" style="text-align: center;height:50px;font-size: 17px;color:rgb(0, 0, 0)"></br> Rhea Mansharamani</div>
+        
+      </div>
+    
+    </div>
+  
+  </div>
+
+
+</body>
+
+</html>
